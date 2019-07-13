@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0826F0B9-F502-45A0-BCF3-6E725053CFAA}</ProjectGuid>
+    <ProjectGuid>{BDAC2ECF-34B4-4A76-925B-E583E2831925}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My8拉伸收缩扭曲及旋转</RootNamespace>
+    <RootNamespace>My10仿射变换</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="8. 拉伸收缩扭曲及旋转.cpp" />
+    <ClCompile Include="10. 仿射变换.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

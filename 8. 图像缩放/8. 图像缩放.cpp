@@ -30,7 +30,7 @@ int main()
 
     vector<Mat> pyrImageArray;
     buildPyramid(inputImage, pyrImageArray, 5);
-    for (auto iter = pyrImageArray.begin(); iter != pyrImageArray.end(); ++iter) 
+    for (auto iter = pyrImageArray.begin(); iter != pyrImageArray.end(); ++iter)
     {
         imshow("图像金字塔(多层次)", *iter);
         waitKey();

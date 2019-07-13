@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8. 拉伸收缩扭曲及旋转.cpp">
+    <ClCompile Include="8. 图像缩放.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
