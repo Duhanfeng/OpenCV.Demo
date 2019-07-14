@@ -6,7 +6,7 @@ using namespace cv;
 int main()
 {
     //加载图像
-    Mat image = imread("D:\\OpenCV\\Image\\套环\\图像00228.BMP");
+    Mat image = imread("../Image/LOL/role_login.png");
 
     //显示图像
     imshow("显示窗口", image);

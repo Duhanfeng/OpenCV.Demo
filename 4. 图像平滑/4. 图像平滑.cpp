@@ -6,7 +6,7 @@ using namespace cv;
 int main()
 {
     //加载图像
-    Mat inputImage = imread("D:\\OpenCV\\Image\\PCB\\pcb.png");
+    Mat inputImage = imread("../Image/PCB/pcb.png");
     Mat blurImage;
     Mat medianImage;
     Mat gaussImage;

@@ -40,7 +40,7 @@ static void ContrastAndBright(int, void*)
 int main()
 {
     //加载图像
-    g_srcImage = imread("D:\\OpenCV\\Image\\LOL\\role_login.png");
+    g_srcImage = imread("../Image/LOL/role_login.png");
 
     if (g_srcImage.data == NULL)
     {

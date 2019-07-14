@@ -8,7 +8,7 @@ using namespace cv;
 int main()
 {
     //加载图像
-    Mat inputImage = imread("D:\\OpenCV\\Image\\套环\\图像00228.BMP");
+    Mat inputImage = imread("../Image/套环/图像00228.BMP", IMREAD_GRAYSCALE);
     Mat thresholdImage;
     Mat blobImage;
 

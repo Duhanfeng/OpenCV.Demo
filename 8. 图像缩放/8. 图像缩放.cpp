@@ -6,7 +6,7 @@ using namespace cv;
 
 int main()
 {
-    Mat inputImage = imread("D:\\OpenCV\\Image\\LOL\\role_login.png");
+    Mat inputImage = imread("../Image/LOL/role_login.png");
     imshow("输入图像", inputImage);
 
     float scale = 0.5;

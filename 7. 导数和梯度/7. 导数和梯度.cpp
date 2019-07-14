@@ -6,7 +6,7 @@ using namespace cv;
 
 int main()
 {
-    Mat inputImage = imread("D:\\OpenCV\\Image\\PCB\\pcb.png", IMREAD_GRAYSCALE);
+    Mat inputImage = imread("../Image/PCB/pcb.png", IMREAD_GRAYSCALE);
     imshow("输入图像", inputImage);
 
     //计算sobel
