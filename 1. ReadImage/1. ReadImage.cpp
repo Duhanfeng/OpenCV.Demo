@@ -5,11 +5,12 @@ using namespace cv;
 
 int main()
 {
-    //加载图像
-    Mat image = imread("../Image/LOL/role_login.png");
-
-    //显示图像
-    imshow("显示窗口", image);
+    Mat inputImage = imread("../Image/美女.jpg", IMREAD_GRAYSCALE);
+    if (inputImage.empty())
+    {
+        exit(0);
+    }
+    imshow("输入图像", inputImage);
 
     waitKey();
 }
