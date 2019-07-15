@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15. 直方图均衡化", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16. Canny边缘检测", "16. Canny边缘检测\16. Canny边缘检测.vcxproj", "{CDEBC869-835A-4134-882B-2F39BAC2BA7C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17. 霍夫变换", "17. 霍夫变换\17. 霍夫变换.vcxproj", "{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{CDEBC869-835A-4134-882B-2F39BAC2BA7C}.Release|x64.Build.0 = Release|x64
 		{CDEBC869-835A-4134-882B-2F39BAC2BA7C}.Release|x86.ActiveCfg = Release|Win32
 		{CDEBC869-835A-4134-882B-2F39BAC2BA7C}.Release|x86.Build.0 = Release|Win32
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Debug|x64.ActiveCfg = Debug|x64
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Debug|x64.Build.0 = Debug|x64
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Debug|x86.Build.0 = Debug|Win32
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Release|x64.ActiveCfg = Release|x64
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Release|x64.Build.0 = Release|x64
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Release|x86.ActiveCfg = Release|Win32
+		{10A1C0D0-87BE-4C73-867C-E2AF631BACFA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

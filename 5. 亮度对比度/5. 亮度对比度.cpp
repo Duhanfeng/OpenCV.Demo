@@ -17,20 +17,22 @@ int g_nBrightValue;  //亮度值
 static void ContrastAndBright(int, void*)
 {
 
-    //创建窗口
-    namedWindow("【原始图窗口】", 1);
+    ////创建窗口
+    //namedWindow("【原始图窗口】", 1);
+    //
+    ////三个for循环，执行运算 g_dstImage(i,j) =a*g_srcImage(i,j) + b
+    //for (int y = 0; y < g_srcImage.rows; y++)
+    //{
+    //    for (int x = 0; x < g_srcImage.cols; x++)
+    //    {
+    //        for (int c = 0; c < 3; c++)
+    //        {
+    //            g_dstImage.at<Vec3b>(y, x)[c] = saturate_cast<uchar>((g_nContrastValue * 0.01) * (g_srcImage.at<Vec3b>(y, x)[c]) + g_nBrightValue);
+    //        }
+    //    }
+    //}
 
-    //三个for循环，执行运算 g_dstImage(i,j) =a*g_srcImage(i,j) + b
-    for (int y = 0; y < g_srcImage.rows; y++)
-    {
-        for (int x = 0; x < g_srcImage.cols; x++)
-        {
-            for (int c = 0; c < 3; c++)
-            {
-                g_dstImage.at<Vec3b>(y, x)[c] = saturate_cast<uchar>((g_nContrastValue * 0.01) * (g_srcImage.at<Vec3b>(y, x)[c]) + g_nBrightValue);
-            }
-        }
-    }
+    g_srcImage.convertTo(g_dstImage, -1, 0.05 * g_nContrastValue, g_nBrightValue);
 
     //显示图像
     imshow("【原始图窗口】", g_srcImage);
